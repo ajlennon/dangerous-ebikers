@@ -215,12 +215,21 @@ Published on the channel (keep in sync with [`channel/description.txt`](channel/
 
 ## 9. Individual rights — procedure
 
+**Response times:** we aim to **match ICO guidance** on UK GDPR individual rights ([right of access](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/right-of-access/), [SAR step-by-step](https://ico.org.uk/for-organisations/advice-for-small-organisations/subject-access-requests-sar/how-to-deal-with-a-request-for-information-a-step-by-step-guide/)):
+
+| ICO position | Our practice |
+|--------------|--------------|
+| Respond **without undue delay**, at latest **one calendar month** | Default deadline for formal rights requests (access, erasure, objection, etc.) |
+| **Up to two further months** if complex or multiple requests from the same person | Apply only when justified; **notify the requester within the first month** with reasons |
+| **Identity verification** before disclosing private archive material | Request ID promptly; do not disclose originals until reasonably satisfied of identity (ICO: period often starts once required ID is received) |
+| **Faster voluntary handling** of published-clip complaints | Internal targets below (48h / 7d) — **not** a substitute for statutory deadlines on formal SARs |
+
 When someone contacts us (email or YouTube private message — **comments disabled**) saying they appear in footage:
 
 | Right | Our response |
 |-------|----------------|
 | **Right to be informed** | Point to channel description / this approach |
-| **Right of access (SAR)** | Respond within **one month**; confirm what we hold (original/processed/URLs); verify identity before disclosing originals |
+| **Right of access (SAR)** | **One calendar month** (ICO standard); confirm what we hold; verify identity before disclosing originals |
 | **Right to erasure** | **Published:** remove or re-edit YouTube video promptly if identification possible despite blur. **Originals:** delete unless **legitimate grounds** to retain (e.g. active police investigation, pending complaint we must defend) — seek legal advice if in doubt |
 | **Right to object** | Stop processing for publication; take down clip |
 | **Right to restrict** | Pause further use while disputing accuracy |
@@ -308,7 +317,7 @@ After upload:
 
 | Event | Action |
 |-------|--------|
-| **Privacy complaint** | Acknowledge within 48h; review clip; take down or re-blur within 7 days; log outcome |
+| **Privacy complaint** | Acknowledge within **48h** (voluntary); review clip; take down or re-blur within **7 days** where possible; formal rights requests within **one calendar month** (ICO) |
 | **ICO enquiry** | Do not ignore; seek legal advice; preserve manifests and this document |
 | **Threat of legal action** | Preserve evidence; stop publication of disputed clip; instruct solicitor |
 | **Media contact** | No comment on identifiable individuals; refer to channel purpose statement |
@@ -381,6 +390,7 @@ High vulnerability — solid-box blur or withhold publication if any doubt.
 
 | Date | Change | Author |
 |------|--------|--------|
+| 2026-06-23 | Individual rights: match ICO response times (1 calendar month; extension rules; ID before archive) | Alex Lennon |
 | 2026-06-23 | Map/compliance text: pins link to YouTube; site does not embed video | Alex Lennon |
 | 2026-06-23 | YouTube comments disabled on all videos (Studio) | Alex Lennon |
 | 2026-06-23 | Operator/ICO surfaced on site, channel copy, video descriptions (Dynamic Devices Ltd) | Alex Lennon |

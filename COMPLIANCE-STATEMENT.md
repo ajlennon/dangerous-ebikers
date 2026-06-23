@@ -8,7 +8,7 @@
 **Channel:** [@Reckless-Rides-UK](https://www.youtube.com/@Reckless-Rides-UK)  
 **Public site:** [recklessrides.uk](https://recklessrides.uk)  
 **Public document:** [github.com/DynamicDevices/reckless-rides-uk/blob/main/COMPLIANCE-STATEMENT.md](https://github.com/DynamicDevices/reckless-rides-uk/blob/main/COMPLIANCE-STATEMENT.md)  
-**Version:** 1.8  
+**Version:** 1.9  
 **Last updated:** 23 June 2026  
 **Jurisdiction:** England & Wales, United Kingdom
 
@@ -103,11 +103,13 @@ We aim to meet UK GDPR principles including **lawfulness, fairness, transparency
 
 If you believe you appear in footage, or that material about you has been processed unfairly, you may contact us (see §9). We will treat requests seriously and in good faith.
 
+**UK GDPR response times:** we aim to **match ICO guidance** — respond without undue delay and, for formal rights requests, within **one calendar month** at the latest; up to **two further months** only if the request is complex or we receive several requests from you, with notice within the first month. We request identity verification promptly before disclosing **private archive** material ([ICO right of access](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/right-of-access/)).
+
 | Request type | Our intended response |
 |--------------|----------------------|
-| **Objection / erasure** | Review the clip promptly. If you are or may be identifiable despite anonymisation, we will **remove or restrict** public access unless we have a compelling overriding reason to retain it (for example an active police investigation we are lawfully supporting). |
-| **Correction** | If descriptions are materially inaccurate, we will correct or remove them. |
-| **Subject access** | We will respond within **one month** where UK GDPR applies, verifying identity before disclosing private archive material. |
+| **Objection / erasure** | Review promptly. **Published clips:** we aim to remove or restrict within **7 days** where identification is possible despite blur (voluntary target, faster than the statutory month where we can). **Originals:** delete unless compelling grounds to retain (e.g. active police investigation) — formal erasure requests within **one calendar month** (ICO). |
+| **Correction** | If descriptions are materially inaccurate, we will correct or remove them within **one calendar month** for formal requests; faster where practical. |
+| **Subject access** | **One calendar month** (ICO standard); verify identity before disclosing private archive material. |
 | **Platform report** | You may also use YouTube’s reporting tools; we do not discourage lawful use of platform processes. |
 
 We maintain an internal log of complaints and actions taken.
@@ -137,7 +139,7 @@ We welcome specific, actionable input—for example:
 - Where our transparency information should be clearer  
 - Where our procedures should be strengthened  
 
-We will **acknowledge** substantive contact within **48 hours** where possible and aim to **resolve or escalate** within **7 days**, subject to complexity and any active police process.
+We will **acknowledge** substantive contact within **48 hours** where possible and aim to **resolve or escalate** within **7 days** for published-clip complaints — voluntary targets where we can; **formal UK GDPR requests** follow ICO timelines (**one calendar month**, with extension only as ICO allows).
 
 If feedback reveals a systemic gap, we will update our internal compliance documentation and operating procedures.
 
