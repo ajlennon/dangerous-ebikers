@@ -4,7 +4,8 @@
 **Last reviewed:** 2026-06-23  
 **Jurisdiction:** England & Wales (default — confirm if operating elsewhere in the UK)  
 **Channel:** [@Reckless-Rides-UK](https://www.youtube.com/@Reckless-Rides-UK)  
-**Public site:** [recklessrides.uk](https://recklessrides.uk)
+**Public site:** [recklessrides.uk](https://recklessrides.uk)  
+**Repository:** [github.com/DynamicDevices/reckless-rides-uk](https://github.com/DynamicDevices/reckless-rides-uk)
 
 ---
 
@@ -44,9 +45,10 @@ Some controllers must pay a fee to the ICO ([registration self-assessment](https
 
 | Question | Answer / date |
 |----------|----------------|
-| ICO registration required? | _TBD — run self-assessment_ |
+| ICO registration required? | _TBD — register as Dynamic Devices Ltd (Tier 1 micro)_ |
 | Registration reference (if any) | _TBD_ |
 | Date checked | _TBD_ |
+| Registered entity | Dynamic Devices Ltd |
 
 ---
 
@@ -54,7 +56,7 @@ Some controllers must pay a fee to the ICO ([registration self-assessment](https
 
 | Term | Us |
 |------|-----|
-| **Data controller** | The channel operator (individual) — decides why and how footage is processed |
+| **Data controller** | **Dynamic Devices Ltd** — decides why and how footage is processed; operated by Alex Lennon ([ajlennon@dynamicdevices.co.uk](mailto:ajlennon@dynamicdevices.co.uk)) |
 | **Personal data** | Video/audio in which a person is **identifiable** (face, voice, distinctive clothing, number plate linked to an individual, etc.) |
 | **Processing** | Recording, storing, blurring, uploading, describing, sharing with police |
 
@@ -192,7 +194,7 @@ Published on the channel (keep in sync with [`channel/description.txt`](channel/
 - How to request removal  
 - Link to police reporting (101) — we do not replace formal reports  
 
-**Contact for data/privacy requests:** [ajlennon@gmail.com](mailto:ajlennon@gmail.com) (also set in YouTube Studio).
+**Contact for data/privacy requests:** [ajlennon@dynamicdevices.co.uk](mailto:ajlennon@dynamicdevices.co.uk) (also set in YouTube Studio).
 
 ---
 
@@ -377,6 +379,7 @@ High vulnerability — solid-box blur or withhold publication if any doubt.
 
 | Date | Change | Author |
 |------|--------|--------|
+| 2026-06-23 | Move to DynamicDevices GitHub org; privacy contact ajlennon@dynamicdevices.co.uk; controller Dynamic Devices Ltd | — |
 | 2026-06-23 | v1.0 release: nationwide scope, @Reckless-Rides-UK, upload branding pipeline, rides-imports watcher, channel art | — |
 | 2026-06-23 | YouTube handle set to @Reckless-Rides-UK | — |
 | 2026-06-23 | Documentation refresh: README quick links, auto-pipeline workflow, map/DNS status, pre-commit layout; compliance v1.3 incident map | — |

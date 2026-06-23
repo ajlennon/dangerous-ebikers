@@ -2,9 +2,11 @@
 
 **Document purpose:** This statement is provided to **complainants**, **online platforms** (including YouTube), and **law enforcement** to explain how the Reckless Rides UK project is operated, the legal and platform obligations we have considered, and the controls we apply before any clip is made publicly visible.
 
+**Data controller:** Dynamic Devices Ltd (England & Wales)  
+**Privacy contact:** [ajlennon@dynamicdevices.co.uk](mailto:ajlennon@dynamicdevices.co.uk)  
 **Channel:** [@Reckless-Rides-UK](https://www.youtube.com/@Reckless-Rides-UK)  
 **Public site:** [recklessrides.uk](https://recklessrides.uk)  
-**Public document:** [github.com/ajlennon/reckless-rides-uk/blob/main/COMPLIANCE-STATEMENT.md](https://github.com/ajlennon/reckless-rides-uk/blob/main/COMPLIANCE-STATEMENT.md)  
+**Public document:** [github.com/DynamicDevices/reckless-rides-uk/blob/main/COMPLIANCE-STATEMENT.md](https://github.com/DynamicDevices/reckless-rides-uk/blob/main/COMPLIANCE-STATEMENT.md)  
 **Version:** 1.4  
 **Last updated:** 23 June 2026  
 **Jurisdiction:** England & Wales, United Kingdom
@@ -72,7 +74,7 @@ Before any clip is made **publicly visible**, we apply a controlled pipeline des
 | **Face anonymisation** | Automated face blurring on a working copy; **manual review** before any upload decision. |
 | **Publish copy** | Embedded GPS/device metadata **removed**; **letterboxed to 1920×1080** so clips appear as standard Videos (not Shorts). |
 | **Upload visibility** | Clips are uploaded as **Private** (automated via import watcher or manual script), reviewed again on the platform, and only then set to **Public** manually. |
-| **Description** | Factual incident log text; privacy footer with **ajlennon@gmail.com** and link to this statement. |
+| **Description** | Factual incident log text; privacy footer with **ajlennon@dynamicdevices.co.uk** and link to this statement. |
 | **Evidence integrity** | Original files and integrity records retained for possible handover to police under proper process. |
 
 We do **not** commit video evidence files to public source-control repositories.
@@ -142,7 +144,7 @@ If feedback reveals a systemic gap, we will update our internal compliance docum
 
 | Purpose | Contact |
 |---------|---------|
-| **Privacy, takedown, correction, data rights** | [ajlennon@gmail.com](mailto:ajlennon@gmail.com) |
+| **Privacy, takedown, correction, data rights** | [ajlennon@dynamicdevices.co.uk](mailto:ajlennon@dynamicdevices.co.uk) |
 | **YouTube channel** | [@Reckless-Rides-UK](https://www.youtube.com/@Reckless-Rides-UK) |
 | **Incident map** | [recklessrides.uk](https://recklessrides.uk) |
 

@@ -7,9 +7,9 @@ Nationwide UK evidence project — public documentation, compliance standards, a
 | | |
 |---|---|
 | **Site** | [recklessrides.uk](https://recklessrides.uk) (incident map) |
-| **Repo** | [github.com/ajlennon/reckless-rides-uk](https://github.com/ajlennon/reckless-rides-uk) |
+| **Repo** | [github.com/DynamicDevices/reckless-rides-uk](https://github.com/DynamicDevices/reckless-rides-uk) |
 | **Compliance** | [COMPLIANCE-STATEMENT.md](COMPLIANCE-STATEMENT.md) |
-| **Privacy / takedown** | [ajlennon@gmail.com](mailto:ajlennon@gmail.com) |
+| **Privacy / takedown** | [ajlennon@dynamicdevices.co.uk](mailto:ajlennon@dynamicdevices.co.uk) |
 
 **Video evidence is never stored in this repository** (see `.gitignore`). `*_UPLOAD.json` metadata (titles, descriptions, tags, YouTube URLs — no faces or video) **is** tracked for transparency and powers the public map.
 
@@ -21,12 +21,12 @@ Incident IDs use the legacy **`DEB-`** prefix (unchanged after rebrand).
 
 | Document | Audience | URL |
 |----------|----------|-----|
-| **[Compliance & standards statement](COMPLIANCE-STATEMENT.md)** | Complainants, YouTube, police | `https://github.com/ajlennon/reckless-rides-uk/blob/main/COMPLIANCE-STATEMENT.md` |
+| **[Compliance & standards statement](COMPLIANCE-STATEMENT.md)** | Complainants, YouTube, police | `https://github.com/DynamicDevices/reckless-rides-uk/blob/main/COMPLIANCE-STATEMENT.md` |
 | **[Incident map](https://recklessrides.uk/)** | Public map of uploaded incidents | [recklessrides.uk](https://recklessrides.uk) (GitHub Pages + custom domain) |
-| [UK compliance record](UK-COMPLIANCE.md) | Full GDPR/legal operating detail | `https://github.com/ajlennon/reckless-rides-uk/blob/main/UK-COMPLIANCE.md` |
+| [UK compliance record](UK-COMPLIANCE.md) | Full GDPR/legal operating detail | `https://github.com/DynamicDevices/reckless-rides-uk/blob/main/UK-COMPLIANCE.md` |
 | [Publication workflow](#publication-workflow-privacy--compliance) | How clips are anonymised before going public | This README |
 
-**Privacy / takedown / feedback:** [ajlennon@gmail.com](mailto:ajlennon@gmail.com)
+**Privacy / takedown / feedback:** [ajlennon@dynamicdevices.co.uk](mailto:ajlennon@dynamicdevices.co.uk)
 
 We welcome constructive feedback to ensure we meet all legal and platform obligations.
 
@@ -286,7 +286,7 @@ Regenerate upload metadata after editing channel templates:
 ./scripts/update-youtube-metadata.py DEB-20260623T080303Z_53.4092N_2.9778W_001 --dry-run
 ```
 
-Templates live in `channel/` — `upload-title-template.txt`, `video-description-header.txt`, `video-description-footer.txt`, `upload-tags.txt`, `upload-playlist.txt`.
+Templates live in `channel/` — contact email, compliance URL, title/description templates, tags, playlist.
 
 ### Fix Shorts / wrong aspect ratio
 
@@ -322,7 +322,7 @@ Full detail: [`COMPLIANCE-STATEMENT.md`](COMPLIANCE-STATEMENT.md) (external) and
 
 ## Incident map (GitHub Pages)
 
-Public map of uploaded incidents: **https://recklessrides.uk/** (canonical) · also **https://ajlennon.github.io/reckless-rides-uk/**
+Public map of uploaded incidents: **https://recklessrides.uk/** (canonical) · also **https://dynamicdevices.github.io/reckless-rides-uk/**
 
 Built from `*_UPLOAD.json` (YouTube URL required; no video or faces). On each push to `main`, GitHub Actions runs `scripts/build-map-data.py` and deploys `docs/`.
 
@@ -342,9 +342,9 @@ Built from `*_UPLOAD.json` (YouTube URL required; no video or faces). On each pu
 | **A** | `@` | `185.199.109.153` | DNS only |
 | **A** | `@` | `185.199.110.153` | DNS only |
 | **A** | `@` | `185.199.111.153` | DNS only |
-| **CNAME** | `www` | `ajlennon.github.io` | DNS only |
+| **CNAME** | `www` | `dynamicdevices.github.io` | DNS only |
 
-Optional IPv6: four **AAAA** `@` records to `2606:50c0:8000::153` … `2606:50c0:8003::153` (also DNS only). Apex **CNAME** to `ajlennon.github.io` works on Cloudflare via CNAME flattening, but four **A** records match GitHub’s documented setup.
+Optional IPv6: four **AAAA** `@` records to `2606:50c0:8000::153` … `2606:50c0:8003::153` (also DNS only). Apex **CNAME** to `dynamicdevices.github.io` works on Cloudflare via CNAME flattening, but four **A** records match GitHub’s documented setup.
 
 **Verify DNS** (after propagation, up to 24 h):
 

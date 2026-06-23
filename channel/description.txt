@@ -13,8 +13,8 @@ WHAT YOU'LL SEE
 FIND US
 • YouTube: youtube.com/@Reckless-Rides-UK
 • Incident map: https://recklessrides.uk
-• Compliance: https://github.com/ajlennon/reckless-rides-uk/blob/main/COMPLIANCE-STATEMENT.md
-• Privacy / takedown: ajlennon@gmail.com
+• Compliance: https://github.com/DynamicDevices/reckless-rides-uk/blob/main/COMPLIANCE-STATEMENT.md
+• Privacy / takedown: ajlennon@dynamicdevices.co.uk
 
 Constructive feedback on compliance welcome.
 

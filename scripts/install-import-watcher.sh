@@ -62,9 +62,4 @@ echo ""
 echo "Drop .MOV/.mp4 files into the inbox (LocalSend from glasses)."
 echo "Pipeline: ingest -> done/ -> YouTube upload (private). Set public in Studio after review."
 echo "Disable auto-upload: AUTO_YOUTUBE_UPLOAD=false in config/import-inbox.conf"
-if [[ -d "/home/ajlennon/LocalSend/bike-imports" ]]; then
-  echo ""
-  echo "Note: legacy inbox bike-imports still exists — move any pending clips to rides-imports or set IMPORT_INBOX in config."
-fi
-echo ""
 systemctl --user status "$SERVICE_NAME" --no-pager || true
