@@ -22,3 +22,7 @@ config/import-inbox.conf
 
 # Import watcher log (may contain paths)
 register/import-inbox.log
+
+# Python bytecode (pre-commit py_compile)
+__pycache__/
+*.py[cod]

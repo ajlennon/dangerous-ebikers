@@ -1,0 +1,39 @@
+# Pre-commit hooks — catch CI/map-data failures before push.
+# Install: ./scripts/install-pre-commit.sh  (or: pip install pre-commit && pre-commit install)
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-yaml
+        files: ^\.github/workflows/.*\.yml$
+        args: [--unsafe]
+      - id: check-json
+        files: ^(evidence/processed/.*_UPLOAD\.json|docs/data/incidents\.geojson)$
+
+  - repo: local
+    hooks:
+      - id: bash-syntax
+        name: bash -n (scripts/*.sh)
+        entry: scripts/pre-commit-bash-syntax.sh
+        language: script
+        files: ^scripts/.*\.sh$
+
+      - id: build-map-data
+        name: build-map-data.py (UPLOAD.json → geojson)
+        entry: scripts/pre-commit-build-map.sh
+        language: script
+        pass_filenames: false
+        always_run: true
+
+      - id: py-compile
+        name: python3 -m py_compile (scripts/*.py)
+        entry: scripts/pre-commit-py-compile.sh
+        language: script
+        files: ^scripts/.*\.py$
+
+      - id: no-absolute-home-paths
+        name: no /home/ paths in *_UPLOAD.json
+        entry: scripts/pre-commit-no-home-paths.sh
+        language: script
+        files: ^evidence/processed/.*_UPLOAD\.json$

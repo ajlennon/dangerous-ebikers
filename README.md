@@ -299,6 +299,33 @@ python3 -m http.server 8765 --directory docs
 
 **First-time setup:** repo **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 
+## Pre-commit checks
+
+Hooks catch map-data, JSON, shell, and workflow YAML issues before push (mirrors the Pages CI build step).
+
+**Install once:**
+
+```bash
+./scripts/install-pre-commit.sh
+# or: pip3 install --user pre-commit && pre-commit install
+```
+
+**Manual run** (all files, no commit required):
+
+```bash
+./scripts/pre-commit-check.sh
+# or: pre-commit run --all-files
+```
+
+| Hook | What it checks |
+|------|----------------|
+| `build-map-data.py` | `*_UPLOAD.json` → `docs/data/incidents.geojson`; fails if geojson is out of sync |
+| `check-json` | Valid JSON in staged `*_UPLOAD.json` and `incidents.geojson` |
+| `bash -n` | Shell syntax for `scripts/*.sh` |
+| `check-yaml` | `.github/workflows/*.yml` |
+| `py_compile` | Python syntax for `scripts/*.py` |
+| `no /home/ paths` | Staged `*_UPLOAD.json` must use repo-relative paths |
+
 ## Police handover
 
 For each reported incident, provide:
