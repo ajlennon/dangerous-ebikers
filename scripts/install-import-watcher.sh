@@ -26,7 +26,7 @@ fi
 
 cat >"$SERVICE" <<EOF
 [Unit]
-Description=Dangerous eBikers glasses import inbox watcher
+Description=Reckless Rides UK glasses import inbox watcher
 After=default.target
 
 [Service]

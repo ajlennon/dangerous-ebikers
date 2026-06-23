@@ -43,6 +43,13 @@ header .tagline {
   font-size: 0.9rem;
 }
 
+header .subtitle {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+  max-width: 42rem;
+}
+
 header nav {
   margin-top: 0.75rem;
   display: flex;

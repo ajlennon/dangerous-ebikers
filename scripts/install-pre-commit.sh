@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install pre-commit hooks for dangerous-ebikers.
+# Install pre-commit hooks for Reckless Rides UK (dangerous-ebikers repo).
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"

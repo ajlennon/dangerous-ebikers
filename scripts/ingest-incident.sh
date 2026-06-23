@@ -232,7 +232,7 @@ def rel_path(p):
     except ValueError:
         return str(p)
 bst_short = bst_recorded or utc_recorded
-title = f"Pavement e-bike — {bst_short}" if bst_recorded else f"Pavement e-bike — {utc_recorded}"
+title = f"Cycling incident — {bst_short}" if bst_recorded else f"Cycling incident — {utc_recorded}"
 
 description_parts = [
     "Incident log (evidence archive)",

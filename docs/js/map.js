@@ -18,7 +18,7 @@
   }
 
   function popupHtml(props) {
-    const title = escapeHtml(props.title || "Pavement e-bike incident");
+    const title = escapeHtml(props.title || "Cycling incident");
     const when = escapeHtml(props.recorded_bst || props.recorded_utc || "");
     const yt = props.youtube_url
       ? `<a href="${escapeHtml(props.youtube_url)}" target="_blank" rel="noopener">Watch on YouTube</a>`

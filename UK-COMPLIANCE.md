@@ -1,9 +1,10 @@
-# UK legal & GDPR compliance — Dangerous eBikers
+# UK legal & GDPR compliance — Reckless Rides UK
 
 **Status:** living operational document  
 **Last reviewed:** 2026-06-23  
 **Jurisdiction:** England & Wales (default — confirm if operating elsewhere in the UK)  
-**Channel:** [@Dangerous-eBikers](https://www.youtube.com/@Dangerous-eBikers)
+**Channel:** [@RecklessRidesUK](https://www.youtube.com/@RecklessRidesUK) *(update handle in YouTube Studio; legacy @Dangerous-eBikers until changed)*  
+**Public site:** [recklessrides.uk](https://recklessrides.uk)
 
 ---
 
@@ -20,7 +21,7 @@ This document records **our intended approach** and **operational controls**. It
 | Activity | Description |
 |----------|-------------|
 | **Capture** | Short video on public streets, via Ray-Ban Meta glasses |
-| **Purpose** | Document illegal pavement / footpath e-bike riding; support pedestrian safety; provide evidence for police (101) where appropriate |
+| **Purpose** | Document illegal pavement / footpath riding and dangerous cycling on pavement and road; support pedestrian safety; provide evidence for police (101) where appropriate |
 | **Publication** | Anonymised clips uploaded to YouTube as **private**; set **public** manually after review |
 | **Retention** | Full originals kept **privately** for possible police handover — **never uploaded** |
 
@@ -66,7 +67,7 @@ We rely primarily on:
 
 ### 4.1 Legitimate interests (Article 6(1)(f) UK GDPR)
 
-**Purpose:** road safety documentation, public interest in unlawful pavement riding, and supporting law enforcement with evidence.
+**Purpose:** road safety documentation, public interest in unlawful pavement riding and dangerous cycling, and supporting law enforcement with evidence.
 
 We apply the ICO three-part test ([legitimate interests guidance](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/legitimate-interests/)):
 
@@ -171,7 +172,7 @@ We reduce the risk of Community Guidelines strikes or channel termination by:
 |------|---------|
 | **Harassment / cyberbullying** | No naming individuals; face blur; no “find this person” commentary; moderate/remove abusive comments |
 | **Privacy violations** | Anonymisation pipeline; private-until-reviewed; takedown within 7 days |
-| **Vigilante / incitement** | Channel guidelines prohibit confrontation; factual titles (“pavement e-bike”, time, place) |
+| **Vigilante / incitement** | Channel guidelines prohibit confrontation; factual titles (“cycling incident”, time, place) |
 | **Repeated targeting** | Do not build series focused on one identifiable rider |
 | **Misleading content** | No deceptive edits; originals retained for integrity |
 | **Children** | Withhold if anonymisation uncertain |
@@ -333,7 +334,7 @@ Complete one assessment for the **channel programme** (not every clip). Update i
 
 ### A1 Purpose
 
-Document unlawful pavement e-bike riding in the UK to raise awareness and support reporting to police, improving pedestrian safety.
+Document unlawful pavement riding and dangerous cycling in the UK to raise awareness and support reporting to police, improving pedestrian and road safety.
 
 ### A2 Necessity
 
@@ -376,7 +377,7 @@ High vulnerability — solid-box blur or withhold publication if any doubt.
 | Date | Change | Author |
 |------|--------|--------|
 | 2026-06-23 | Comprehensive review: 16:9 letterbox, map URL fix, YouTube policy section, upload automation, takedown template | — |
-| 2026-06-23 | Added external COMPLIANCE-STATEMENT.md for complainants, platforms, police | — |
+| 2026-06-23 | Rebrand to Reckless Rides UK; scope broadened to pavement and road dangerous cycling; recklessrides.uk custom domain | — |
 
 ---
 

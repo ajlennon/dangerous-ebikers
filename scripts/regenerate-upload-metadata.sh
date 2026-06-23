@@ -58,7 +58,7 @@ def rel_path(p):
         return str(p)
 
 map_url = f"https://www.google.com/maps?q={lat},{lon_map}" if lat and lon_map else ""
-title = f"Pavement e-bike — {bst_recorded}" if bst_recorded else f"Pavement e-bike — {utc_recorded}"
+title = f"Cycling incident — {bst_recorded}" if bst_recorded else f"Cycling incident — {utc_recorded}"
 
 description_parts = [
     "Incident log (evidence archive)",

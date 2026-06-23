@@ -1,10 +1,11 @@
-# Dangerous eBikers — compliance & standards statement
+# Reckless Rides UK — compliance & standards statement
 
-**Document purpose:** This statement is provided to **complainants**, **online platforms** (including YouTube), and **law enforcement** to explain how the Dangerous eBikers project is operated, the legal and platform obligations we have considered, and the controls we apply before any clip is made publicly visible.
+**Document purpose:** This statement is provided to **complainants**, **online platforms** (including YouTube), and **law enforcement** to explain how the Reckless Rides UK project is operated, the legal and platform obligations we have considered, and the controls we apply before any clip is made publicly visible.
 
-**Channel:** [@Dangerous-eBikers](https://www.youtube.com/@Dangerous-eBikers)  
-**Public document:** [github.com/ajlennon/dangerous-ebikers/blob/main/COMPLIANCE-STATEMENT.md](https://github.com/ajlennon/dangerous-ebikers/blob/main/COMPLIANCE-STATEMENT.md)  
-**Version:** 1.1  
+**Channel:** [@RecklessRidesUK](https://www.youtube.com/@RecklessRidesUK) *(update in YouTube Studio when handle is changed; legacy handle may still be @Dangerous-eBikers until then)*  
+**Public site:** [recklessrides.uk](https://recklessrides.uk)  
+**Public document:** [github.com/ajlennon/dangerous-ebikers/blob/main/COMPLIANCE-STATEMENT.md](https://github.com/ajlennon/dangerous-ebikers/blob/main/COMPLIANCE-STATEMENT.md) *(repository may be renamed separately)*  
+**Version:** 1.2  
 **Last updated:** 23 June 2026  
 **Jurisdiction:** England & Wales, United Kingdom
 
@@ -12,9 +13,9 @@
 
 ## 1. Who we are and what we do
 
-Dangerous eBikers documents **e-bikes and similar vehicles ridden illegally on pavements and footpaths** in the United Kingdom. Our purpose is **pedestrian safety**, **road-safety awareness**, and **supporting proper reporting to the police** where appropriate.
+Reckless Rides UK documents **dangerous and illegal cycling in the United Kingdom** — including **pavement and footpath riding**, **reckless road cycling**, **delivery bikes**, and similar behaviour. Our purpose is **pedestrian safety**, **road-safety awareness**, and **supporting proper reporting to the police** where appropriate.
 
-We do **not** operate this project to harass, identify, or encourage action against private individuals. We describe **observed behaviour** (for example, riding on a pavement), not personal attacks.
+We do **not** operate this project to harass, identify, or encourage action against private individuals. We describe **observed behaviour** (for example, riding on a pavement or cycling dangerously on the road), not personal attacks.
 
 **Awareness · Evidence · Change**
 
@@ -27,10 +28,10 @@ We have reviewed how UK law and regulation may apply to recording in public plac
 | Area | Our understanding and response |
 |------|--------------------------------|
 | **UK GDPR & Data Protection Act 2018** | Footage in which a person is identifiable is **personal data**. Public publication on YouTube is **not** treated as purely personal/household use. We act as a **data controller** for material we upload and retain. |
-| **Lawful basis** | We rely primarily on **legitimate interests** (road safety documentation and public interest in unlawful pavement riding), balanced against individuals’ rights through **anonymisation**, **limited publication**, and **takedown** procedures. |
+| **Lawful basis** | We rely primarily on **legitimate interests** (road safety documentation and public interest in unlawful pavement riding and dangerous cycling), balanced against individuals’ rights through **anonymisation**, **limited publication**, and **takedown** procedures. |
 | **Harassment & communications law** | We do not encourage confrontation, “pile-ons”, or repeated targeting of the same individual. Comments that threaten, abuse, or solicit identification are inconsistent with our standards. |
 | **Defamation & misuse of private information** | We use **factual**, **neutral** descriptions of observable conduct. We avoid naming individuals in titles or descriptions unless already necessary for a formal process we are engaged in. |
-| **Highway / road traffic context** | Pavement riding may contravene UK highway law depending on circumstances. Documenting this behaviour supports a **public-interest** purpose; it does not remove our obligations to handle personal data fairly. |
+| **Highway / road traffic context** | Pavement riding and dangerous cycling may contravene UK highway law depending on circumstances. Documenting this behaviour supports a **public-interest** purpose; it does not remove our obligations to handle personal data fairly. |
 | **Children** | Extra care applies where under-18s may appear. We withhold publication where effective anonymisation is uncertain. |
 
 **Important:** This statement describes our **intended standards and controls**. It is **not legal advice** and does not claim that every publication is lawful in every circumstance—that depends on the facts of each clip. We are committed to correcting mistakes promptly when they are drawn to our attention.
@@ -41,7 +42,7 @@ Detailed operating procedures: [UK compliance record](UK-COMPLIANCE.md) and [pub
 
 ## 3. Platform terms (YouTube)
 
-We operate on YouTube as [@Dangerous-eBikers](https://www.youtube.com/@Dangerous-eBikers) and aim to comply with:
+We operate on YouTube as [@RecklessRidesUK](https://www.youtube.com/@RecklessRidesUK) and aim to comply with:
 
 - [YouTube Terms of Service](https://www.youtube.com/t/terms)
 - [YouTube Community Guidelines](https://www.youtube.com/howyoutubeworks/policies/community-guidelines/)
@@ -51,7 +52,7 @@ We operate on YouTube as [@Dangerous-eBikers](https://www.youtube.com/@Dangerous
 
 - No incitement to harassment or vigilantism  
 - No publishing with the primary purpose of identifying private individuals for mob justice  
-- Factual titles and descriptions (observable conduct — e.g. “ridden on the pavement”)  
+- Factual titles and descriptions (observable conduct — e.g. “ridden on the pavement”, “dangerous cycling on the road”)  
 - Privacy notice on the channel; per-video privacy footer with contact email  
 - Upload **private**, review, then set **public** manually — never skip the review gate  
 - Clips published as standard **Videos** (16:9 letterbox), not Shorts, for searchable descriptions  
@@ -112,7 +113,7 @@ We maintain an internal log of complaints and actions taken.
 
 ## 7. Cooperation with law enforcement
 
-Where pavement riding is reported to the police, we may provide **original** footage (not the anonymised YouTube copy), together with integrity information, to assist a lawful investigation. We do not publish material for the purpose of bypassing police processes or obtaining hire/operator records directly from e-bike companies.
+Where dangerous or illegal cycling is reported to the police, we may provide **original** footage (not the anonymised YouTube copy), together with integrity information, to assist a lawful investigation. We do not publish material for the purpose of bypassing police processes or obtaining hire/operator records directly from operators.
 
 We will verify law-enforcement requests and disclose the **minimum necessary** material.
 
@@ -141,7 +142,8 @@ If feedback reveals a systemic gap, we will update our internal compliance docum
 | Purpose | Contact |
 |---------|---------|
 | **Privacy, takedown, correction, data rights** | [ajlennon@gmail.com](mailto:ajlennon@gmail.com) |
-| **YouTube channel** | [@Dangerous-eBikers](https://www.youtube.com/@Dangerous-eBikers) |
+| **YouTube channel** | [@RecklessRidesUK](https://www.youtube.com/@RecklessRidesUK) |
+| **Incident map** | [recklessrides.uk](https://recklessrides.uk) |
 
 Please include: URL of the video (if any), date/time/location if known, and the nature of your request. This helps us respond accurately.
 

@@ -7,24 +7,21 @@
     "processed_video": "evidence/processed/DEB-20260623T080303Z_53.4092N_2.9778W_001_PROCESSED.mp4"
   },
   "youtube": {
-    "title": "Pavement e-bike \u2014 2026-06-23 09:03:03 BST",
-    "description": "Incident log (evidence archive)\n\nRecorded: 2026-06-23T08:03:03Z (2026-06-23 09:03:03 BST)\nGPS: 53.4092\u00b0N, 2.9778\u00b0W\nMap: https://www.google.com/maps?q=53.4092,-2.9778\nDevice: Ray-Ban Meta Smart Glasses 2\n\nNotes: First ingest - pavement ebike Liverpool\n\nPolice report: [pending]\n\n---\nPRIVACY: This upload is an anonymised copy (faces blurred; file metadata removed). Original footage is retained privately and may be shared with police when reported via 101. To request removal, contact the channel.\n\nDangerous eBikers | Awareness \u2022 Evidence \u2022 Change",
+    "title": "Cycling incident \u2014 2026-06-23 09:03:03 BST",
+    "description": "Incident log (evidence archive)\n\nRecorded: 2026-06-23T08:03:03Z (2026-06-23 09:03:03 BST)\nGPS: 53.4092\u00b0N, 2.9778\u00b0W\nMap: https://www.google.com/maps?q=53.4092,-2.9778\nDevice: Ray-Ban Meta Smart Glasses 2\n\nNotes: First ingest - pavement ebike Liverpool\n\nPolice report: [pending]\n\n---\nPRIVACY: This upload is an anonymised copy (faces blurred; file metadata removed). Original footage is retained privately and may be shared with police when reported via 101. To request removal or correction: ajlennon@gmail.com\n\nCompliance: https://github.com/ajlennon/dangerous-ebikers/blob/main/COMPLIANCE-STATEMENT.md\n\nReckless Rides UK | Awareness \u2022 Evidence \u2022 Change",
     "tags": [
-      "pavement ebike",
-      "illegal pavement cycling",
-      "UK ebike",
-      "e-bike UK",
-      "road safety",
-      "pedestrian safety",
-      "pavement cycling",
+      "pavement cycling UK",
+      "dangerous cycling UK",
+      "road cycling UK",
+      "delivery bike UK",
       "footpath cycling",
-      "evidence log",
-      "geotagged footage",
+      "pedestrian safety",
+      "road safety",
       "UK cycling",
-      "dangerous cycling",
-      "micromobility",
+      "evidence log",
       "Highway Code",
-      "Dangerous eBikers"
+      "reckless riding",
+      "Reckless Rides UK"
     ],
     "privacy": "private",
     "privacy_after_review": "public",
@@ -35,7 +32,7 @@
     "url": "https://www.youtube.com/watch?v=J8sZmyFdlcI",
     "studio_url": "https://studio.youtube.com/video/J8sZmyFdlcI/edit",
     "uploaded_utc": "",
-    "privacy_at_upload": "private"
+    "privacy_at_upload": ""
   },
   "incident": {
     "recorded_utc": "2026-06-23T08:03:03Z",

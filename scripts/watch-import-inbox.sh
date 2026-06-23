@@ -15,7 +15,7 @@ IMPORT_INBOX="${IMPORT_INBOX:-/home/ajlennon/LocalSend/bike-imports}"
 
 mkdir -p "$IMPORT_INBOX" "$IMPORT_INBOX/done" "$IMPORT_INBOX/failed"
 
-echo "Dangerous eBikers import watcher"
+echo "Reckless Rides UK import watcher"
 echo "  inbox : $IMPORT_INBOX"
 echo "  poll  : ${POLL_SECONDS}s"
 echo "  log   : $ROOT/register/import-inbox.log"
