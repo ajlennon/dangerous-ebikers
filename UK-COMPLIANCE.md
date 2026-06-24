@@ -46,11 +46,11 @@ Controllers that process personal data in scope of UK GDPR must pay a fee to the
 | Question | Answer / date |
 |----------|----------------|
 | ICO registration required? | **Yes** — public YouTube publication and private archive of identifiable footage |
-| Registered entity | Dynamic Devices Ltd |
+| Registered entity | Dynamic Devices Limited |
 | Tier / fee | Tier 1 micro — **£47/year** (direct debit) |
 | Registration submitted | **2026-06-23** |
-| Direct debit application | **C1966226** (instruction complete; ICO confirms within ~3 working days) |
-| Public register reference | _Pending — ICO publishes within ~7 working days; add **Z** reference from confirmation email when received_ |
+| Direct debit application | **C1966226** |
+| Public register reference | **ZC180994** ([ICO register](https://ico.org.uk/ESDWebPages/Search)) |
 
 ---
 
@@ -390,6 +390,7 @@ High vulnerability — solid-box blur or withhold publication if any doubt.
 
 | Date | Change | Author |
 |------|--------|--------|
+| 2026-06-24 | ICO public register reference **ZC180994** (Dynamic Devices Limited) | Alex Lennon |
 | 2026-06-23 | Individual rights: match ICO response times (1 calendar month; extension rules; ID before archive) | Alex Lennon |
 | 2026-06-23 | Map/compliance text: pins link to YouTube; site does not embed video | Alex Lennon |
 | 2026-06-23 | YouTube comments disabled on all videos (Studio) | Alex Lennon |

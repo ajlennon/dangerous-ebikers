@@ -1,4 +1,4 @@
-Operated by Dynamic Devices Ltd (England & Wales), ICO data protection fee registered (Tier 1 micro).
+Operated by Dynamic Devices Ltd (England & Wales). ICO register: Dynamic Devices Limited, ZC180994 (Tier 1 micro).
 
 Compliance & standards (public): https://github.com/DynamicDevices/reckless-rides-uk/blob/main/COMPLIANCE-STATEMENT.md
 Incident map: https://recklessrides.uk

@@ -7,7 +7,7 @@ Nationwide UK evidence project — public documentation, compliance standards, a
 | | |
 |---|---|
 | **Operator / controller** | **Dynamic Devices Ltd** (England & Wales) |
-| **ICO registration** | Data protection fee paid (Tier 1 micro; application **C1966226**; public **Z** reference pending) |
+| **ICO registration** | **Dynamic Devices Limited · ZC180994** (Tier 1 micro; fee paid 23 Jun 2026) |
 | **Site** | [recklessrides.uk](https://recklessrides.uk) (incident map) |
 | **Repo** | [github.com/DynamicDevices/reckless-rides-uk](https://github.com/DynamicDevices/reckless-rides-uk) |
 | **Shared core** | [evidence-core](https://github.com/DynamicDevices/evidence-core) (git submodule at `core/`) |
@@ -349,7 +349,7 @@ This project is designed to stay within **UK GDPR** and **YouTube Community Guid
 
 Full detail: [`COMPLIANCE-STATEMENT.md`](COMPLIANCE-STATEMENT.md) (external) and [`UK-COMPLIANCE.md`](UK-COMPLIANCE.md) (operating record).
 
-**Compliance baseline (2026-06-23):** ICO fee registered (Dynamic Devices Ltd); Appendix A LIA signed in `UK-COMPLIANCE.md`. Add ICO public **Z** reference when confirmation email arrives.
+**Compliance baseline (2026-06-24):** ICO register **ZC180994** (Dynamic Devices Limited, Tier 1 micro); Appendix A LIA signed in `UK-COMPLIANCE.md`.
 
 ## Incident map (GitHub Pages)
 
