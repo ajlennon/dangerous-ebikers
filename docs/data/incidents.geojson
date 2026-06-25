@@ -57,6 +57,63 @@
         "youtube_url": "https://www.youtube.com/watch?v=MdCFWZKUVgg",
         "map_url": "https://www.google.com/maps?q=53.4086,-2.9790"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.979,
+          53.4075
+        ]
+      },
+      "properties": {
+        "incident_id": "004",
+        "base_name": "DEB-20260625T090334Z_53.4075N_2.9790W_004",
+        "title": "Reckless Rides UK \u2014 incident \u2014 2026-06-25 10:03:34 BST",
+        "recorded_utc": "2026-06-25T09:03:34Z",
+        "recorded_bst": "2026-06-25 10:03:34 BST",
+        "youtube_url": "https://www.youtube.com/watch?v=ALS_Yy7NUII",
+        "map_url": "https://www.google.com/maps?q=53.4075,-2.9790"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9752,
+          53.4092
+        ]
+      },
+      "properties": {
+        "incident_id": "005",
+        "base_name": "DEB-20260625T090807Z_53.4092N_2.9752W_005",
+        "title": "Reckless Rides UK \u2014 incident \u2014 2026-06-25 10:08:07 BST",
+        "recorded_utc": "2026-06-25T09:08:07Z",
+        "recorded_bst": "2026-06-25 10:08:07 BST",
+        "youtube_url": "https://www.youtube.com/watch?v=9clBkygUeWk",
+        "map_url": "https://www.google.com/maps?q=53.4092,-2.9752"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.971,
+          53.4099
+        ]
+      },
+      "properties": {
+        "incident_id": "006",
+        "base_name": "DEB-20260625T091147Z_53.4099N_2.9710W_006",
+        "title": "Reckless Rides UK \u2014 incident \u2014 2026-06-25 10:11:47 BST",
+        "recorded_utc": "2026-06-25T09:11:47Z",
+        "recorded_bst": "2026-06-25 10:11:47 BST",
+        "youtube_url": "https://www.youtube.com/watch?v=Sr4hU5zlU1c",
+        "map_url": "https://www.google.com/maps?q=53.4099,-2.9710"
+      }
     }
   ]
 }

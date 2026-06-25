@@ -12,7 +12,9 @@ if [[ -f "$CONF" ]]; then
 fi
 
 AUTO_YOUTUBE_UPLOAD="${AUTO_YOUTUBE_UPLOAD:-true}"
+AUTO_PUBLISH_MAP="${AUTO_PUBLISH_MAP:-true}"
 UPLOAD="$ROOT/scripts/upload-incident.sh"
+PUBLISH_MAP="$ROOT/scripts/publish-map-metadata.sh"
 
 log() {
   printf '%s %s\n' "$(date -u +"%Y-%m-%dT%H:%M:%SZ")" "$*" | tee -a "$LOG"
@@ -78,6 +80,12 @@ main() {
   done < <(upload_pending "$only_base")
 
   [[ "$uploaded" -gt 0 ]] && log "youtube pending complete: $uploaded uploaded"
+
+  if [[ "$uploaded" -gt 0 && "$AUTO_PUBLISH_MAP" =~ ^(true|1|yes)$ ]]; then
+    chmod +x "$PUBLISH_MAP"
+    "$PUBLISH_MAP" "Add ${uploaded} incident(s) to public map after YouTube upload." || true
+  fi
+
   return 0
 }
 

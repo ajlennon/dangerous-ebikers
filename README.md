@@ -267,7 +267,7 @@ systemctl --user status reckless-rides-import-watcher.service
 tail -f register/import-inbox.log
 ```
 
-Config: copy `config/import-inbox.conf.example` → `config/import-inbox.conf` to change inbox path, poll interval, or set `AUTO_YOUTUBE_UPLOAD=false` to disable YouTube automation.
+Config: copy `config/import-inbox.conf.example` → `config/import-inbox.conf` to change inbox path, poll interval, `AUTO_YOUTUBE_UPLOAD=false` to disable YouTube automation, or `AUTO_PUBLISH_MAP=false` to skip auto-commit/push of map metadata after upload.
 
 **Upload backlog manually:**
 

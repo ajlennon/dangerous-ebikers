@@ -20,7 +20,7 @@ source "$CONF"
 IMPORT_INBOX="${IMPORT_INBOX:-/home/ajlennon/LocalSend/rides-imports}"
 
 mkdir -p "$IMPORT_INBOX" "$IMPORT_INBOX/done" "$IMPORT_INBOX/failed" "$UNIT_DIR"
-chmod +x "$ROOT/scripts/process-import-inbox.sh" "$ROOT/scripts/watch-import-inbox.sh" "$ROOT/scripts/upload-pending-incidents.sh"
+chmod +x "$ROOT/scripts/process-import-inbox.sh" "$ROOT/scripts/watch-import-inbox.sh" "$ROOT/scripts/upload-pending-incidents.sh" "$ROOT/scripts/publish-map-metadata.sh"
 
 if [[ -f "$CONF" ]] && ! grep -q '^AUTO_YOUTUBE_UPLOAD=' "$CONF"; then
   printf '\n# After ingest, upload to YouTube as private\nAUTO_YOUTUBE_UPLOAD=true\n' >>"$CONF"
@@ -32,6 +32,15 @@ if systemctl --user is-active debike-import-watcher.service &>/dev/null; then
 fi
 rm -f "$LEGACY_SERVICE"
 
+YOUTUBE_PYTHON=""
+for py in "${HOME}/anaconda3/bin/python3" "$(command -v python3.10 2>/dev/null || true)"; do
+  [[ -n "$py" && -x "$py" ]] || continue
+  if "$py" -c "import google.auth" 2>/dev/null; then
+    YOUTUBE_PYTHON="$py"
+    break
+  fi
+done
+
 cat >"$SERVICE" <<EOF
 [Unit]
 Description=Reckless Rides UK glasses import inbox watcher
@@ -41,6 +50,8 @@ After=default.target
 Type=simple
 WorkingDirectory=$ROOT
 Environment=RRUK_IMPORT_CONF=$CONF
+Environment=PATH=${HOME}/anaconda3/bin:/usr/local/bin:/usr/bin:/bin
+${YOUTUBE_PYTHON:+Environment=YOUTUBE_PYTHON=$YOUTUBE_PYTHON}
 ExecStart=$ROOT/scripts/watch-import-inbox.sh
 Restart=on-failure
 RestartSec=15
